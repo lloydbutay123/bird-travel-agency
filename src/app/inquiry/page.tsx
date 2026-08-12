@@ -21,8 +21,6 @@ export default function TravelInquiryForm() {
       inquiry: String(formData.get("inquiry") || "").trim(),
     };
 
-    console.log("Submitting travel inquiry:", data);
-
     setIsSubmitting(true);
 
     try {
