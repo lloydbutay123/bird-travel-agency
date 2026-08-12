@@ -32,7 +32,7 @@ export default function BookingConfirmationStep() {
           </div>
         </div>
         <div className="relative bg-white flex-1 overflow-hidden border border-[#EAEAEA] rounded-r-2xl">
-          <div className="p-6 bg-[#8DD3BB] flex justify-between items-center">
+          <div className="p-6 bg-[#3AA9DC] flex justify-between items-center">
             <div className="flex items-center gap-4">
               <div className="relative h-12 w-12  rounded-full border border-white overflow-hidden">
                 <Image
@@ -53,7 +53,7 @@ export default function BookingConfirmationStep() {
           <div className="flex items-center gap-8 p-6">
             <div className="flex items-center gap-2">
               <div className="rounded-sm h-8 w-8 flex items-center justify-center bg-[#EBF6F2]">
-                <FaClock size={22} color="#8DD3BB" />
+                <FaClock size={22} color="#3AA9DC" />
               </div>
               <div>
                 <h5 className="text-[12px] font-semibold text-[#112211]/60">
@@ -64,7 +64,7 @@ export default function BookingConfirmationStep() {
             </div>
             <div className="flex items-center gap-2">
               <div className="rounded-sm h-8 w-8 flex items-center justify-center bg-[#EBF6F2]">
-                <FaClock size={22} color="#8DD3BB" />
+                <FaClock size={22} color="#3AA9DC" />
               </div>
               <div>
                 <h5 className="text-[12px] font-semibold text-[#112211]/60">
@@ -75,7 +75,7 @@ export default function BookingConfirmationStep() {
             </div>
             <div className="flex items-center gap-2">
               <div className="rounded-sm h-8 w-8 flex items-center justify-center bg-[#EBF6F2]">
-                <FaDoorClosed size={22} color="#8DD3BB" />
+                <FaDoorClosed size={22} color="#3AA9DC" />
               </div>
               <div>
                 <h5 className="text-[12px] font-semibold text-[#112211]/60">

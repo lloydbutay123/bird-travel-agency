@@ -31,8 +31,8 @@ export default function SliderCoponent({
         <Slider.Track className="relative h-0.5 w-full grow rounded-full bg-gray-200">
           <Slider.Range className="absolute h-full rounded-full bg-[#112211]" />
         </Slider.Track>
-        <Slider.Thumb className="block h-6 w-6 rounded-full bg-[#8DD3BB]" />
-        <Slider.Thumb className="block h-6 w-6 rounded-full bg-[#8DD3BB]" />
+        <Slider.Thumb className="block h-6 w-6 rounded-full bg-[#3AA9DC]" />
+        <Slider.Thumb className="block h-6 w-6 rounded-full bg-[#3AA9DC]" />
       </Slider.Root>
 
       <div className="flex justify-between">

@@ -62,7 +62,7 @@ export default function FlightSegmentCard({
         <p className="text-[20px] font-medium text-[#112211]/75">{duration}</p>
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-between mb-10">
-        <div className="flex gap-6 items-center px-8 py-4 border border-[#8DD3BB] rounded-lg w-full lg:w-auto">
+        <div className="flex gap-6 items-center px-8 py-4 border border-[#3AA9DC] rounded-lg w-full lg:w-auto">
           <div className="w-16 h-11.25 relative">
             <Image src={airlineLogo} alt="" fill className="object-contain" />
           </div>

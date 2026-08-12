@@ -18,7 +18,7 @@ export default function PaymentOptionCard({
   return (
     <div
       onClick={() => onSelect?.(value)}
-      className={`flex items-center justify-between rounded-xl p-4 ${selected && "bg-[#8DD3BB]"}`}
+      className={`flex items-center justify-between rounded-xl p-4 ${selected && "bg-[#3AA9DC]"}`}
     >
       <div className="flex flex-col gap-2 ">
         <h4 className="font-tradegothic text-[16px] font-bold">{title}</h4>

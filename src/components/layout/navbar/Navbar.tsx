@@ -96,9 +96,9 @@ export default function Navbar() {
       className={`${isHome ? "lg:mt-7.5" : " bg-white mt-0 card"} fixed flex z-999 items-center justify-center w-full`}
     >
       <Container
-        className={`${isHome ? "py-6 max-w-345 lg:px-8" : "py-5.25 xl:px-0"} px-4 sm:px-6 flex items-center justify-between`}
+        className={`${isHome ? "py-6 max-w-345 lg:px-8" : " xl:px-0"} px-4 sm:px-6 flex items-center justify-between`}
       >
-        <div className="hidden lg:flex gap-8">
+        <div className="hidden lg:flex gap-8 py-5.25">
           {navItems.map((nav) => {
             const isActive = nav.match(pathname);
             const Icon = nav.icon;
@@ -117,7 +117,7 @@ export default function Navbar() {
                   </p>
                 </Link>
                 {isActive && (
-                  <div className="absolute -bottom-8.25 left-0 w-full h-1.25 bg-[#8DD3BB]" />
+                  <div className="absolute -bottom-8.25 left-0 w-full h-1.25 bg-[#3AA9DC]" />
                 )}
               </div>
             );
@@ -126,16 +126,16 @@ export default function Navbar() {
         <Link
           href="/"
           onClick={closeNavbar}
-          className="relative lg:absolute w-25 h-9 lg:left-1/2 lg:-translate-x-1/2"
+          className="relative lg:absolute w-25 h-full lg:left-1/2 lg:-translate-x-1/2"
         >
           <Image
-            src={`${isHome ? "/assets/images/logo.png" : "/assets/images/logo-dark.png"}`}
+            src="/assets/images/MTTLogo.png"
             alt=""
             fill
             className="object-cover"
           />
         </Link>
-        <div className="flex items-center">
+        <div className="flex items-center py-5.25">
           {navOpen && isAuthenticated && (
             <Button variant="ghost" onClick={handleShowActions}>
               <MdPerson color={isHome ? "white" : "black"} size={24} />
@@ -161,7 +161,7 @@ export default function Navbar() {
             )}
           </Button>
         </div>
-        <div className="hidden lg:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-8 py-5.25">
           {!isAuthenticated ? (
             actions.map((action) => (
               <Link
@@ -170,8 +170,8 @@ export default function Navbar() {
                 className={`
                 font-semibold text-[14px] 
                 ${isHome && action.label === "Login" && "text-white"}
-                ${action.label === "Sign up" && !isHome && "bg-black! text-white px-4 py-[13.5px] rounded-lg"} 
-                ${action.label === "Sign up" && "bg-white px-4 py-[13.5px] rounded-lg"}`}
+                ${action.label === "Sign up" && !isHome && "bg-[#e88127]! text-white px-4 py-[13.5px] rounded-lg"} 
+                ${action.label === "Sign up" && "bg-[#e88127] text-white px-4 py-[13.5px] rounded-lg"}`}
               >
                 {action.label}
               </Link>

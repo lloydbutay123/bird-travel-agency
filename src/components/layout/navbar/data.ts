@@ -9,17 +9,29 @@ export const actions = [
 ];
 
 export const navItems = [
+  // {
+  //   label: "Find Flights",
+  //   href: "/flights",
+  //   icon: FaPlane,
+  //   match: (pathname: string) => pathname.startsWith("/flights"),
+  // },
+  // {
+  //   label: "Find Stays",
+  //   href: "/stays",
+  //   icon: IoBed,
+  //   match: (pathname: string) => pathname.startsWith("/stays"),
+  // },
   {
-    label: "Find Flights",
-    href: "/flights",
-    icon: FaPlane,
-    match: (pathname: string) => pathname.startsWith("/flights"),
+    label: "Services",
+    href: "/services",
+    icon: IoBed,
+    match: (pathname: string) => pathname.startsWith("/services"),
   },
   {
-    label: "Find Stays",
-    href: "/stays",
+    label: "Send an Inquiry",
+    href: "/inquiry",
     icon: IoBed,
-    match: (pathname: string) => pathname.startsWith("/stays"),
+    match: (pathname: string) => pathname.startsWith("/inquiry"),
   },
 ];
 

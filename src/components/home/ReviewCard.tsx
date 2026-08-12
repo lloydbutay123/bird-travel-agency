@@ -22,7 +22,7 @@ export default function ReviewCard({
   return (
     <div className="relative h-full">
       {/* offset background */}
-      <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-[20px] bg-[#8DD3BB]/40" />
+      <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-[20px] bg-[#3AA9DC]/40" />
 
       {/* card */}
       <div className="card relative h-full rounded-[20px] bg-white p-5 lg:p-6">

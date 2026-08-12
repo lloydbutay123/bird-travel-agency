@@ -16,7 +16,7 @@ export default function FeaturedDestinationCard({
 }: FeaturedDestinationCardProps) {
   return (
     <div className="flex flex-col gap-4 lg:flex-row w-full lg:gap-6">
-      <div className="flex min-h-80 flex-col justify-between p-4 sm:p-5 lg:min-h-106 lg:flex-[1.05] lg:p-6  bg-[#8DD3BB] rounded-[20px]">
+      <div className="flex min-h-80 flex-col justify-between p-4 sm:p-5 lg:min-h-106 lg:flex-[1.05] lg:p-6  bg-[#3AA9DC] rounded-[20px]">
         <div className="w-full">
           <div className="flex justify-between items-start mb-5 gap-4">
             <h1 className="font-tradegothic max-w-[70%] font-bold text-[24px] sm:text-[30px] lg:text-[40px] lg:max-w-90 leading-tight">

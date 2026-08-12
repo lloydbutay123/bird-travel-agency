@@ -16,9 +16,9 @@ export default function Footer() {
   if (isAuth || isOnboarding) return null;
 
   return (
-    <footer className="w-full pt-10 bg-[#8DD3BB]">
+    <footer className="w-full pt-10 bg-[#3AA9DC]">
       <Container className="px-4 sm:px-6">
-        <div className="relative z-10 flex justify-between rounded-[20px] bg-[#CDEAE1] lg:px-6 lg:py-8">
+        <div className="relative z-10 flex justify-between rounded-[20px] bg-[#E8F6FC] lg:px-6 lg:py-8">
           <div className="hidden lg:block">
             <p className="font-tradegothic leading-13.5 w-92 mb-6 text-[44px] font-bold">
               Subscribe Newsletter
@@ -56,9 +56,9 @@ export default function Footer() {
 
         <div className="pt-12 pb-16 md:flex md:gap-20">
           <div className="mb-8 md:mb-0">
-            <div className="relative mb-6 h-12.5 w-25">
+            <div className="relative mb-6 h-25 w-25">
               <Image
-                src="/assets/images/logo-dark.png"
+                src="/assets/images/MTTLogo.png"
                 alt=""
                 fill
                 className="object-cover"

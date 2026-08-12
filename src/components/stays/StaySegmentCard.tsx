@@ -42,7 +42,7 @@ export default function StaySegmentCard({
         </div>
       )}
 
-      <div className="flex gap-6 items-center px-8 mb-10 py-4 border border-[#8DD3BB] rounded-lg">
+      <div className="flex gap-6 items-center px-8 mb-10 py-4 border border-[#3AA9DC] rounded-lg">
         <div className="w-16 h-11.25 relative">
           <Image
             src={propertyLogo}

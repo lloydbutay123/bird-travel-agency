@@ -21,7 +21,7 @@ export default function BookingStepper({
               <div
                 className={`flex h-8 w-8 items-center justify-center rounded-full text-sm font-semibold ${
                   isActive || isDone
-                    ? "bg-[#8DD3BB]"
+                    ? "bg-[#3AA9DC]"
                     : "bg-gray-200 text-gray-500"
                 }`}
               >

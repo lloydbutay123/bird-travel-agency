@@ -24,7 +24,7 @@ export default function Checkbox({
         disabled={disabled}
         name=""
         id=""
-        className="h-4.5 w-4.5 accent-[#8DD3BB]"
+        className="h-4.5 w-4.5 accent-[#3AA9DC]"
       />
       <span className="text-[14px] font-medium">{label}</span>
     </label>
